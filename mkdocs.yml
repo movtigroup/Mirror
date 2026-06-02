@@ -1,0 +1,79 @@
+site_name: MovtiGroup Mirror
+site_url: https://doc.movtigroup.ir
+repo_url: https://github.com/movtigroup/Mirror
+
+theme:
+  name: material
+  custom_dir: theme
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  language: fa
+  direction: rtl
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - i18n:
+      languages:
+        - locale: fa
+          name: فارسی
+          default: true
+        - locale: en
+          name: English
+        - locale: zh
+          name: 简体中文
+        - locale: ar
+          name: العربية
+        - locale: fr
+          name: Français
+        - locale: de
+          name: Deutsch
+        - locale: tr
+          name: Türkçe
+
+nav:
+  - صفحه اصلی: index.md
+  - لینوکس (اوبونتو/دبیان): linux.md
+  - داکر: docker.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/movtigroup
+    - icon: fontawesome/solid/paper-plane
+      link: https://t.me/movtigroup
+
+copyright: Copyright &copy; 2024 MovtiGroup
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
