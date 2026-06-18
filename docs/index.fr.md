@@ -1,9 +1,11 @@
+<div class="hero-card">
 # Miroir MovtiGroup
-## Scripts en un clic pour les outils Linux et Docker
+### Scripts en un clic pour les outils Linux et Docker
+</div>
 
 ---
 
-### 🚀 Linux
+### 🐧 Linux
 === "Primary"
     ```bash
     bash <(curl -sSL https://Linux.ththt.ir)

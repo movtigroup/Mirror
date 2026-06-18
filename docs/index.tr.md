@@ -1,9 +1,11 @@
+<div class="hero-card">
 # MovtiGroup Aynası
-## Linux ve Docker araçları için tek tıkla kurulum betikleri
+### Linux ve Docker araçları için tek tıkla kurulum betikleri
+</div>
 
 ---
 
-### 🚀 Linux
+### 🐧 Linux
 === "Primary"
     ```bash
     bash <(curl -sSL https://Linux.ththt.ir)
