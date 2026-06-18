@@ -1,34 +1,56 @@
-# موتی‌گروپ | MovtiGroup Mirror
-## مستندات جامع آینه‌های نرم‌افزاری و داکر
+# 🌟 موتی‌گروپ | MovtiGroup Mirror
+## 📚 مستندات جامع آینه‌های نرم‌افزاری و ابزارهای داکر
 
-این مخزن شامل کد منبع و محتوای وب‌سایت مستندات **MovtiGroup** است. این وب‌سایت با هدف ارائه آموزش‌های دقیق و اسکریپت‌های نصب سریع (One-click) برای توسعه‌دهندگان طراحی شده است.
+<p align="center">
+  <img src="docs/assets/logo.png" width="150" alt="MovtiGroup Logo">
+</p>
 
-### 🚀 ویژگی‌های کلیدی
-- **پشتیبانی از ۷ زبان**: فارسی (پیش‌فرض)، انگلیسی، چینی، عربی، فرانسوی، آلمانی و ترکی.
-- **اسکریپت‌های نصب سریع**:
-    - لینوکس (اوبونتو/دبیان): `Linux.ththt.ir`
-    - داکر: `install.ththt.ir/docker.sh`
-- **طراحی مدرن**: استفاده از قالب Material برای MkDocs با قابلیت حالت تاریک/روشن.
-- **آماده برای استقرار (Production Ready)**: دارای تنظیمات Docker و Nginx.
+<p align="center">
+  <a href="https://github.com/movtigroup/Mirror/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/Mirror/actions/workflows/release.yml/badge.svg" alt="Mirror Status">
+  </a>
+  <a href="https://github.com/movtigroup/ubuntu-debian/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/ubuntu-debian/actions/workflows/release.yml/badge.svg" alt="Ubuntu-Debian Status">
+  </a>
+  <a href="https://github.com/movtigroup/docker/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/docker/actions/workflows/release.yml/badge.svg" alt="Docker Status">
+  </a>
+  <a href="https://github.com/movtigroup/mirro-docker/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/mirro-docker/actions/workflows/release.yml/badge.svg" alt="Mirror Docker Status">
+  </a>
+</p>
 
-### 🛠 پشته تکنولوژی (Tech Stack)
-- **MkDocs**: مولد سایت استاتیک.
-- **Material for MkDocs**: قالب پیشرفته و واکنش‌گرا.
-- **Docker & Docker Compose**: برای کانتینرایز کردن و اجرای آسان.
-- **Nginx**: سرور نهایی برای میزبانی فایل‌های ساخته شده.
+---
 
-### 📦 نحوه اجرا با داکر
-برای اجرای وب‌سایت به صورت محلی یا در سرور:
+### 📖 معرفی پروژه
+این مخزن شامل کد منبع وب‌سایت مستندات **MovtiGroup** است. هدف ما فراهم کردن دسترسی سریع و پایدار به مخازن نرم‌افزاری بین‌المللی برای کاربران ایرانی است.
 
+### 🚀 اسکریپت‌های نصب هوشمند (One-click)
+با استفاده از این دستورات، سیستم خود را در کمترین زمان به آینه‌های ما متصل کنید:
+
+| سرویس | دستور اصلی (ththt.ir) | دستور کمکی (3cn.ir) |
+| :--- | :--- | :--- |
+| **لینوکس (اوبونتو/دبیان)** | `bash <(curl -sSL https://Linux.ththt.ir)` | `bash <(curl -sSL https://Linux.3cn.ir)` |
+| **نصب داکر و آینه** | `bash <(curl -sSL https://install.ththt.ir/docker.sh)` | `bash <(curl -sSL https://install.3cn.ir/docker.sh)` |
+| **فقط تنظیم آینه داکر** | `bash <(curl -sSL https://install.ththt.ir/mirror.sh)` | `bash <(curl -sSL https://install.3cn.ir/mirror.sh)` |
+
+### 🛠 ویژگی‌های فنی
+- 🌍 **پشتیبانی از ۷ زبان**: فارسی، انگلیسی، چینی، عربی، فرانسوی، آلمانی و ترکی.
+- ⚡ **سرعت بالا**: میزبانی بر روی شبکه‌های توزیع محتوا (CDN) قدرتمند.
+- 🐳 **Docker Ready**: آماده اجرا با استفاده از Docker Compose.
+- 🎨 **Material UI**: رابط کاربری زیبا و مدرن با قابلیت تم تاریک.
+
+### 📦 راهنمای اجرا
+برای اجرای وب‌سایت در محیط محلی:
 ```bash
 docker-compose up -d --build
 ```
-پس از اجرا، سایت در پورت **8080** در دسترس خواهد بود.
+سپس به آدرس `http://localhost:8080` مراجعه کنید.
 
-### 🌐 آدرس‌های مهم
-- **وب‌سایت مستندات**: [https://doc.movtigroup.ir](https://doc.movtigroup.ir)
-- **آینه داکر**: `docker.ththt.ir`
-- **گیت‌هاب**: [https://github.com/movtigroup](https://github.com/movtigroup)
+### 🔗 پیوندهای مفید
+- **وب‌سایت مستندات**: [doc.movtigroup.ir](https://doc.movtigroup.ir)
+- **آینه مستقیم داکر**: `docker.ththt.ir` (کمکی: `docker.3cn.ir`)
+- **تلگرام**: [@movtigroup](https://t.me/movtigroup)
 
 ---
-نام سایت: **MovtiGroup** | توسعه داده شده با ❤️ توسط تیم موتی‌گروپ
+**نام سایت: MovtiGroup** | ساخته شده با ❤️ برای جامعه متن‌باز

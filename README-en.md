@@ -1,34 +1,56 @@
-# MovtiGroup Mirror
-## Comprehensive Documentation for Software Mirrors and Docker
+# 🌟 MovtiGroup Mirror
+## 📚 Comprehensive Documentation for Software Mirrors and Docker Tools
 
-This repository contains the source code and content for the **MovtiGroup** documentation website. This site is designed to provide detailed tutorials and one-click installation scripts for developers.
+<p align="center">
+  <img src="docs/assets/logo.png" width="150" alt="MovtiGroup Logo">
+</p>
 
-### 🚀 Key Features
-- **7 Languages Support**: Persian (Default), English, Chinese, Arabic, French, German, and Turkish.
-- **One-Click Scripts**:
-    - Linux (Ubuntu/Debian): `Linux.ththt.ir`
-    - Docker: `install.ththt.ir/docker.sh`
-- **Modern Design**: Built with MkDocs Material theme, including Dark/Light mode toggle.
-- **Production Ready**: Includes Docker and Nginx configurations.
+<p align="center">
+  <a href="https://github.com/movtigroup/Mirror/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/Mirror/actions/workflows/release.yml/badge.svg" alt="Mirror Status">
+  </a>
+  <a href="https://github.com/movtigroup/ubuntu-debian/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/ubuntu-debian/actions/workflows/release.yml/badge.svg" alt="Ubuntu-Debian Status">
+  </a>
+  <a href="https://github.com/movtigroup/docker/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/docker/actions/workflows/release.yml/badge.svg" alt="Docker Status">
+  </a>
+  <a href="https://github.com/movtigroup/mirro-docker/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/mirro-docker/actions/workflows/release.yml/badge.svg" alt="Mirror Docker Status">
+  </a>
+</p>
 
-### 🛠 Tech Stack
-- **MkDocs**: Static site generator.
-- **Material for MkDocs**: Advanced, responsive theme.
-- **Docker & Docker Compose**: For containerization and easy execution.
-- **Nginx**: Production server for hosting built files.
+---
 
-### 📦 Running with Docker
-To run the website locally or on a server:
+### 📖 Introduction
+This repository contains the source code for the **MovtiGroup** documentation website. Our goal is to provide fast and stable access to international software repositories for developers.
 
+### 🚀 Smart Installation Scripts (One-click)
+Connect your system to our mirrors in no time using these commands:
+
+| Service | Primary Command (ththt.ir) | Auxiliary Command (3cn.ir) |
+| :--- | :--- | :--- |
+| **Linux (Ubuntu/Debian)** | `bash <(curl -sSL https://Linux.ththt.ir)` | `bash <(curl -sSL https://Linux.3cn.ir)` |
+| **Install Docker & Mirror** | `bash <(curl -sSL https://install.ththt.ir/docker.sh)` | `bash <(curl -sSL https://install.3cn.ir/docker.sh)` |
+| **Docker Mirror Only** | `bash <(curl -sSL https://install.ththt.ir/mirror.sh)` | `bash <(curl -sSL https://install.3cn.ir/mirror.sh)` |
+
+### 🛠 Technical Features
+- 🌍 **7 Languages Support**: Persian, English, Chinese, Arabic, French, German, and Turkish.
+- ⚡ **High Performance**: Hosted on powerful Content Delivery Networks (CDN).
+- 🐳 **Docker Ready**: Easy deployment using Docker Compose.
+- 🎨 **Material UI**: Modern and clean interface with Dark mode support.
+
+### 📦 Getting Started
+To run the website locally:
 ```bash
 docker-compose up -d --build
 ```
-Once running, the site will be available on port **8080**.
+Then visit `http://localhost:8080`.
 
-### 🌐 Important URLs
-- **Documentation Website**: [https://doc.movtigroup.ir](https://doc.movtigroup.ir)
-- **Docker Mirror**: `docker.ththt.ir`
-- **GitHub**: [https://github.com/movtigroup](https://github.com/movtigroup)
+### 🔗 Useful Links
+- **Documentation Site**: [doc.movtigroup.ir](https://doc.movtigroup.ir)
+- **Direct Docker Mirror**: `docker.ththt.ir` (Aux: `docker.3cn.ir`)
+- **Telegram**: [@movtigroup](https://t.me/movtigroup)
 
 ---
-Site Name: **MovtiGroup** | Developed with ❤️ by MovtiGroup Team
+**Site Name: MovtiGroup** | Built with ❤️ for the Open Source community
