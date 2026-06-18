@@ -1,9 +1,11 @@
+<div class="hero-card">
 # مرآة MovtiGroup
-## نصوص برمجية بنقرة واحدة لأدوات Linux و Docker
+### نصوص برمجية بنقرة واحدة لأدوات Linux و Docker
+</div>
 
 ---
 
-### 🚀 Linux
+### 🐧 Linux
 === "Primary"
     ```bash
     bash <(curl -sSL https://Linux.ththt.ir)

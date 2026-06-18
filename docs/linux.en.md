@@ -1,17 +1,26 @@
-# Linux Documentation (Ubuntu/Debian)
+# 🐧 Linux Documentation (Ubuntu/Debian)
 
-This section describes how to use MovtiGroup's dedicated mirrors for Linux-based operating systems (Ubuntu and Debian).
+This section describes how to use MovtiGroup's dedicated mirrors for Linux-based operating systems.
 
-## Automated Script
-The fastest way to change repositories is to use the `Linux.ththt.ir` service. This script automatically detects your OS version and replaces it with the best mirror.
+!!! info
+    MovtiGroup mirrors are designed to bypass network restrictions and increase package download speeds.
 
-```bash
-bash <(curl -sSL https://Linux.ththt.ir)
-```
+## 🚀 Automated Script
+The fastest way to change repositories is using our smart scripts:
 
-## GitHub Repository
-To view script details and contribute to the project, visit:
-[https://github.com/movtigroup/ubuntu-debian](https://github.com/movtigroup/ubuntu-debian)
+=== "🌐 Primary"
+    ```bash
+    bash <(curl -sSL https://Linux.ththt.ir)
+    ```
+=== "🔗 Auxiliary"
+    ```bash
+    bash <(curl -sSL https://Linux.3cn.ir)
+    ```
+
+## 📂 Repositories
+| Project | GitHub Link |
+| :--- | :--- |
+| **Ubuntu/Debian** | [github.com/movtigroup/ubuntu-debian](https://github.com/movtigroup/ubuntu-debian) |
 
 ---
-Site Name: **MovtiGroup**
+<p align="center">Site Name: <strong>MovtiGroup</strong></p>

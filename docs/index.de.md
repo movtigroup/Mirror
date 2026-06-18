@@ -1,9 +1,11 @@
+<div class="hero-card">
 # MovtiGroup Spiegel
-## Ein-Klick-Skripte für Linux- und Docker-Tools
+### Ein-Klick-Skripte für Linux- und Docker-Tools
+</div>
 
 ---
 
-### 🚀 Linux
+### 🐧 Linux
 === "Primary"
     ```bash
     bash <(curl -sSL https://Linux.ththt.ir)

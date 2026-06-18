@@ -1,9 +1,11 @@
+<div class="hero-card">
 # MovtiGroup 镜像
-## Linux 和 Docker 工具的一键换源脚本
+### Linux 和 Docker 工具的一键换源脚本
+</div>
 
 ---
 
-### 🚀 Linux
+### 🐧 Linux
 === "Primary"
     ```bash
     bash <(curl -sSL https://Linux.ththt.ir)
