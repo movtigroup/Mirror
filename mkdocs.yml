@@ -13,9 +13,13 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.tracking
+    - navigation.expand
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.edit
+    - content.action.view
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -55,16 +59,27 @@ plugins:
           name: Türkçe
 
 nav:
-  - صفحه اصلی: index.md
-  - لینوکس (اوبونتو/دبیان): linux.md
-  - داکر: docker.md
+  - صفحه اصلی:
+      - خانه: index.md
+  - لینوکس:
+      - اوبونتو و دبیان: linux.md
+  - داکر:
+      - نصب و آینه: docker.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/movtigroup
+      name: GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/movtigroup
+      name: GitLab
+    - icon: fontawesome/brands/docker
+      link: https://docker.ththt.ir
+      name: Docker Mirror
     - icon: fontawesome/solid/paper-plane
       link: https://t.me/movtigroup
+      name: Telegram
 
 copyright: Copyright &copy; 2024 MovtiGroup
 
