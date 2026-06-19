@@ -32,7 +32,7 @@
     curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/install.sh | sudo bash
     ```
 
-#### 2. Mirror Only
+#### 2. Nur Spiegel
 === "🌐 Primär"
     ```bash
     bash <(curl -sSL https://install.ththt.ir/mirror.sh)
