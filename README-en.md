@@ -1,32 +1,56 @@
-# MOVTIGROUP Website Template
+# 🌟 MovtiGroup Mirror
+## 📚 Comprehensive Documentation for Software Mirrors and Docker Tools
 
-This repository contains the main website template for **MOVTIGROUP**. Its purpose is to showcase and document the visual design and layout of the website, representing the company’s visual identity. Note that the operational code and backend logic are stored privately in a separate repository.
+<p align="center">
+  <img src="docs/assets/logo.png" width="150" alt="MovtiGroup Logo">
+</p>
 
-**GitHub Repository:** [https://github.com/movtigroup/movtigroup/](https://github.com/movtigroup/movtigroup/)
+<p align="center">
+  <a href="https://github.com/movtigroup/Mirror/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/Mirror/actions/workflows/release.yml/badge.svg" alt="Mirror Status">
+  </a>
+  <a href="https://github.com/movtigroup/ubuntu-debian/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/ubuntu-debian/actions/workflows/release.yml/badge.svg" alt="Ubuntu-Debian Status">
+  </a>
+  <a href="https://github.com/movtigroup/docker/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/docker/actions/workflows/release.yml/badge.svg" alt="Docker Status">
+  </a>
+  <a href="https://github.com/movtigroup/mirro-docker/actions/workflows/release.yml">
+    <img src="https://github.com/movtigroup/mirro-docker/actions/workflows/release.yml/badge.svg" alt="Mirror Docker Status">
+  </a>
+</p>
 
-## Introduction
+---
 
-This template serves as the primary visual design for the MOVTIGROUP website. The focus is on delivering a modern, clean, and responsive user experience that reflects the brand identity through its visual components.
+### 📖 Introduction
+This repository contains the source code for the **MovtiGroup** documentation website. Our goal is to provide fast and stable access to international software repositories for developers.
 
-## Template Features
+### 🚀 Smart Installation Scripts (One-click)
+Connect your system to our mirrors in no time using these commands:
 
-- **Responsive Design:** Optimized for various devices including mobile, tablet, and desktop.
-- **Easy Customization:** Design elements can be easily adjusted to align with the company’s visual identity.
-- **User-Friendly Documentation:** A clean and well-documented structure for quick navigation and understanding.
-- **Maintainability:** Regular updates and an organized file structure ensure consistent design evolution.
+| Service | Primary Command (ththt.ir) | Auxiliary Command (3cn.ir) |
+| :--- | :--- | :--- |
+| **Linux (Ubuntu/Debian)** | `bash <(curl -sSL https://Linux.ththt.ir)` | `bash <(curl -sSL https://Linux.3cn.ir)` |
+| **Install Docker & Mirror** | `bash <(curl -sSL https://install.ththt.ir/docker.sh)` | `bash <(curl -sSL https://install.3cn.ir/docker.sh)` |
+| **Docker Mirror Only** | `bash <(curl -sSL https://install.ththt.ir/mirror.sh)` | `bash <(curl -sSL https://install.3cn.ir/mirror.sh)` |
 
-## Important Notes
+### 🛠 Technical Features
+- 🌍 **7 Languages Support**: Persian, English, Chinese, Arabic, French, German, and Turkish.
+- ⚡ **High Performance**: Hosted on powerful Content Delivery Networks (CDN).
+- 🐳 **Docker Ready**: Easy deployment using Docker Compose.
+- 🎨 **Material UI**: Modern and clean interface with Dark mode support.
 
-- This repository is solely for presenting the visual design and layout components of the website.
-- Code related to operational functionality and traffic management is maintained privately in a separate repository.
-- Updates, improvements, and design revisions are published here.
+### 📦 Getting Started
+To run the website locally:
+```bash
+docker-compose up -d --build
+```
+Then visit `http://localhost:8080`.
 
-## Usage
+### 🔗 Useful Links
+- **Documentation Site**: [doc.movtigroup.ir](https://doc.movtigroup.ir)
+- **Direct Docker Mirror**: `docker.ththt.ir` (Aux: `docker.3cn.ir`)
+- **Telegram**: [@movtigroup](https://t.me/movtigroup)
 
-Feel free to review the files in this repository to explore the visual design and layout of the website. For any suggestions or feedback to improve the template, please use the **Issues** section on GitHub or contact our team directly.
-
-## Contact
-
-- **Email:** [info@movtigroup.ir](mailto:info@movtigroup.ir)
-- **Website:** [movtigroup.ir](https://movtigroup.ir)
-- **GitHub:** [https://github.com/movtigroup/movtigroup/](https://github.com/movtigroup/movtigroup/)
+---
+**Site Name: MovtiGroup** | Built with ❤️ for the Open Source community

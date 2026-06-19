@@ -1,0 +1,108 @@
+site_name: MovtiGroup Mirror
+site_url: https://doc.movtigroup.ir
+repo_url: https://github.com/movtigroup/Mirror
+site_description: مستندات جامع و اسکریپت‌های نصب هوشمند موتی‌گروپ برای لینوکس و داکر
+
+theme:
+  name: material
+  custom_dir: theme
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  language: fa
+  direction: rtl
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - i18n:
+      languages:
+        - locale: fa
+          name: فارسی
+          default: true
+        - locale: en
+          name: English
+        - locale: zh
+          name: 简体中文
+        - locale: ar
+          name: العربية
+        - locale: fr
+          name: Français
+        - locale: de
+          name: Deutsch
+        - locale: tr
+          name: Türkçe
+
+nav:
+  - خانه: index.md
+  - لینوکس (اوبونتو/دبیان): linux.md
+  - داکر (نصب و آینه): docker.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/movtigroup
+      name: GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/movtigroup
+      name: GitLab
+    - icon: fontawesome/brands/docker
+      link: https://docker.ththt.ir
+      name: Docker Mirror
+    - icon: fontawesome/solid/paper-plane
+      link: https://t.me/movtigroup
+      name: Telegram
+
+copyright: Copyright &copy; 2024 MovtiGroup
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde

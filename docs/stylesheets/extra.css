@@ -1,0 +1,44 @@
+/* Custom Styles for MovtiGroup Documentation */
+
+:root {
+    --md-primary-fg-color: #1e3a8a; /* Indigo 900 */
+    --md-primary-fg-color--light: #3b82f6;
+    --md-primary-fg-color--dark: #1e3a8a;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #3b82f6;
+    --md-primary-fg-color--light: #60a5fa;
+    --md-primary-fg-color--dark: #1d4ed8;
+}
+
+.md-header {
+    background-color: var(--md-primary-fg-color);
+}
+
+/* Hero Section Style */
+.md-main__inner.md-grid {
+    padding-top: 1.5rem;
+}
+
+/* Home Page Cards */
+.hero-card {
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(30, 58, 138, 0.1) 100%);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    text-align: center;
+}
+
+.hero-card h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 76.25em) {
+    .md-nav--primary .md-nav__title {
+        background-color: var(--md-primary-fg-color);
+    }
+}
