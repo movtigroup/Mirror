@@ -18,7 +18,7 @@
 ---
 
 ### 🐳 Docker
-#### 1. Install & Mirror
+#### 1. Installation & Spiegel
 === "🌐 Primär"
     ```bash
     bash <(curl -sSL https://install.ththt.ir/docker.sh)
