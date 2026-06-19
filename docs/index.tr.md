@@ -18,7 +18,7 @@
 ---
 
 ### 🐳 Docker
-#### 1. Install & Mirror
+#### 1. Kurulum & Yansıtma
 === "🌐 Ana"
     ```bash
     bash <(curl -sSL https://install.ththt.ir/docker.sh)
