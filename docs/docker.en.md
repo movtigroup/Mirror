@@ -40,4 +40,3 @@ docker pull docker.ththt.ir/library/nginx:latest
 ```
 
 ---
-<p align="center">Site Name: <strong>MovtiGroup</strong></p>

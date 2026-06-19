@@ -23,4 +23,3 @@ The fastest way to change repositories is using our smart scripts:
 | **Ubuntu/Debian** | [github.com/movtigroup/ubuntu-debian](https://github.com/movtigroup/ubuntu-debian) |
 
 ---
-<p align="center">Site Name: <strong>MovtiGroup</strong></p>

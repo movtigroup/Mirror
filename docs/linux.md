@@ -23,4 +23,3 @@
 | **Ubuntu/Debian** | [github.com/movtigroup/ubuntu-debian](https://github.com/movtigroup/ubuntu-debian) |
 
 ---
-<p align="center">نام سایت: <strong>MovtiGroup</strong></p>

@@ -6,11 +6,11 @@
 ---
 
 ### 🐧 Linux
-=== "Primary"
+=== "🌐 Primär"
     ```bash
     bash <(curl -sSL https://Linux.ththt.ir)
     ```
-=== "Auxiliary"
+=== "🔗 Hilfsweise"
     ```bash
     bash <(curl -sSL https://Linux.3cn.ir)
     ```
@@ -18,14 +18,36 @@
 ---
 
 ### 🐳 Docker
-=== "Primary"
+#### 1. Installation & Spiegel
+=== "🌐 Primär"
     ```bash
     bash <(curl -sSL https://install.ththt.ir/docker.sh)
     ```
-=== "Auxiliary"
+=== "🔗 Hilfsweise"
     ```bash
     bash <(curl -sSL https://install.3cn.ir/docker.sh)
     ```
+=== "🐙 GitHub-Quelle"
+    ```bash
+    curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/install.sh | sudo bash
+    ```
 
----
-Site: **MovtiGroup** | doc.movtigroup.ir
+#### 2. Nur Spiegel
+=== "🌐 Primär"
+    ```bash
+    bash <(curl -sSL https://install.ththt.ir/mirror.sh)
+    ```
+=== "🔗 Hilfsweise"
+    ```bash
+    bash <(curl -sSL https://install.3cn.ir/mirror.sh)
+    ```
+=== "🐙 GitHub-Quelle"
+    ```bash
+    curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/mirror.sh | sudo bash
+    ```
+
+#### Direkte Registrierung
+=== "🌐 Primär"
+    **`https://docker.ththt.ir`**
+=== "🔗 Hilfsweise"
+    **`https://docker.3cn.ir`**

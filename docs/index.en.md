@@ -52,6 +52,10 @@ Install Docker and automatically configure the MovtiGroup mirror:
     ```bash
     bash <(curl -sSL https://install.3cn.ir/docker.sh)
     ```
+=== "🐙 GitHub Source"
+    ```bash
+    curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/install.sh | sudo bash
+    ```
 
 #### 2. Set Docker Mirror Only
 If Docker is already installed:
@@ -64,12 +68,15 @@ If Docker is already installed:
     ```bash
     bash <(curl -sSL https://install.3cn.ir/mirror.sh)
     ```
+=== "🐙 GitHub Source"
+    ```bash
+    curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/mirror.sh | sudo bash
+    ```
 
 #### 3. Direct Registry
-**`https://docker.ththt.ir`**
-(Aux: **`https://docker.3cn.ir`**)
+To use directly in Docker settings:
 
----
-<p align="center">
-  Site Name: <strong>MovtiGroup</strong> | Docs: <strong>doc.movtigroup.ir</strong>
-</p>
+=== "🌐 Primary Address"
+    **`https://docker.ththt.ir`**
+=== "🔗 Auxiliary Address"
+    **`https://docker.3cn.ir`**

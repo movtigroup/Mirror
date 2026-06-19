@@ -40,4 +40,3 @@ docker pull docker.ththt.ir/library/nginx:latest
 ```
 
 ---
-<p align="center">نام سایت: <strong>MovtiGroup</strong></p>

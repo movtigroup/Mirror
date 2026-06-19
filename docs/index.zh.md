@@ -6,11 +6,11 @@
 ---
 
 ### 🐧 Linux
-=== "Primary"
+=== "🌐 主"
     ```bash
     bash <(curl -sSL https://Linux.ththt.ir)
     ```
-=== "Auxiliary"
+=== "🔗 辅助"
     ```bash
     bash <(curl -sSL https://Linux.3cn.ir)
     ```
@@ -18,14 +18,36 @@
 ---
 
 ### 🐳 Docker
-=== "Primary"
+#### 1. 安装与镜像
+=== "🌐 主"
     ```bash
     bash <(curl -sSL https://install.ththt.ir/docker.sh)
     ```
-=== "Auxiliary"
+=== "🔗 辅助"
     ```bash
     bash <(curl -sSL https://install.3cn.ir/docker.sh)
     ```
+=== "🐙 GitHub 源代码"
+    ```bash
+    curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/install.sh | sudo bash
+    ```
 
----
-Site: **MovtiGroup** | doc.movtigroup.ir
+#### 2. 仅配置镜像
+=== "🌐 主"
+    ```bash
+    bash <(curl -sSL https://install.ththt.ir/mirror.sh)
+    ```
+=== "🔗 辅助"
+    ```bash
+    bash <(curl -sSL https://install.3cn.ir/mirror.sh)
+    ```
+=== "🐙 GitHub 源代码"
+    ```bash
+    curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/mirror.sh | sudo bash
+    ```
+
+#### 直接注册表
+=== "🌐 主"
+    **`https://docker.ththt.ir`**
+=== "🔗 辅助"
+    **`https://docker.3cn.ir`**

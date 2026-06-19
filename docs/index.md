@@ -52,6 +52,10 @@
     ```bash
     bash <(curl -sSL https://install.3cn.ir/docker.sh)
     ```
+=== "🐙 منبع گیت‌هاب (GitHub Source)"
+    ```bash
+    curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/install.sh | sudo bash
+    ```
 
 #### ۲. تنظیم آینه داکر (Mirror Only)
 اگر داکر از قبل نصب شده است:
@@ -64,12 +68,15 @@
     ```bash
     bash <(curl -sSL https://install.3cn.ir/mirror.sh)
     ```
+=== "🐙 منبع گیت‌هاب (GitHub Source)"
+    ```bash
+    curl -fsSL https://raw.githubusercontent.com/movtigroup/docker/main/mirror.sh | sudo bash
+    ```
 
-#### ۳. ریجیستری مستقیم
-**`https://docker.ththt.ir`**
-(کمکی: **`https://docker.3cn.ir`**)
+#### ۳. ریجیستری مستقیم (Direct Registry)
+برای استفاده مستقیم در تنظیمات داکر:
 
----
-<p align="center">
-  نام سایت: <strong>MovtiGroup</strong> | آدرس مستندات: <strong>doc.movtigroup.ir</strong>
-</p>
+=== "🌐 آدرس اصلی"
+    **`https://docker.ththt.ir`**
+=== "🔗 آدرس کمکی"
+    **`https://docker.3cn.ir`**
