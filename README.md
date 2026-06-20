@@ -19,7 +19,10 @@
     <img src="https://github.com/movtigroup/mirro-docker/actions/workflows/release.yml/badge.svg" alt="Mirror Docker Status">
   </a>
 </p>
+---
+
 [English](README.en.md) | [简体中文](README.zh.md) | [فارسی](README.md)
+
 ---
 
 
